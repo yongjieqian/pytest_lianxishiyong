@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="8" time="0.114" timestamp="2021-09-03T18:19:42.205322" hostname="DESKTOP-6A3UNDB"><testcase classname="pytest_shiyong.test_hello.Test_pytest_01" name="test_add_1" time="0.001"><failure message="assert 1 == 2">self = &lt;pytest_shiyong.test_hello.Test_pytest_01 object at 0x0000018762150400&gt;
+
+    def test_add_1(self):
+        print('这是01')
+&gt;       assert 1 == 2
+E       assert 1 == 2
+
+pytest_shiyong\test_hello.py:7: AssertionError</failure></testcase><testcase classname="pytest_shiyong.test_hello.Test_pytest_01" name="test_add_2" time="0.001" /><testcase classname="pytest_shiyong.test_hello.Test_pytest_01" name="test_add_3" time="0.001" /><testcase classname="pytest_shiyong.test_hello.Test_pytest_01" name="test_add_4" time="0.001" /><testcase classname="pytest_shiyong.test_hello.Test_pytest_01" name="test_div_1" time="0.001"><failure message="assert 3 == 2">self = &lt;pytest_shiyong.test_hello.Test_pytest_01 object at 0x00000187622AFFD0&gt;
+
+    def test_div_1(self):
+        print('这是div1')
+&gt;       assert 3 == 2
+E       assert 3 == 2
+
+pytest_shiyong\test_hello.py:20: AssertionError</failure></testcase><testcase classname="pytest_shiyong.test_hello.Test_pytest_01" name="test_div_2" time="0.001"><failure message="assert 4 == 2">self = &lt;pytest_shiyong.test_hello.Test_pytest_01 object at 0x0000018762150640&gt;
+
+    def test_div_2(self):
+        print('这是div1')
+&gt;       assert 4 == 2
+E       assert 4 == 2
+
+pytest_shiyong\test_hello.py:23: AssertionError</failure></testcase><testcase classname="pytest_shiyong.test_hello.Test_pytest_01" name="test_div_3" time="0.001" /><testcase classname="pytest_shiyong.test_hello.Test_pytest_01" name="test_div_4" time="0.001" /></testsuite></testsuites>
